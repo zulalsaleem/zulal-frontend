@@ -1,6 +1,6 @@
 //export const API_BASE_URL = "https://video-tweet.onrender.com/api/v1";
 
-fetch("http://localhost:8000/api/v1/user/login", {
+fetch("https://video-tweet.onrender.com/api/v1", {
     method: "POST",
     headers: {
         "Content-Type": "application/json"
